@@ -1,3 +1,5 @@
+var regExDict = {};
+
 module.exports = {
   replace: function(strOrObj, props) {
     var ret = (typeof strOrObj == 'string') ? strOrObj : JSON.stringify(strOrObj);
@@ -12,5 +14,5 @@ module.exports = {
     }
 
     return ret;
-  };
+  }
 };
