@@ -3,7 +3,7 @@
   "author": "Joshua Jung <joshua.p.jung@gmail.com>",
   "license": "MIT",
   "description": "Replaces spots in a string with their values in an object. Super simple templating engine.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "url": "https://github.com/joshjung/prop-replace",
   "homepage": "https://github.com/joshjung/prop-replace",
