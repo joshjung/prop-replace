@@ -9,7 +9,7 @@ module.exports = {
 
     for (var key in props)
     {
-      var regEx = regExDict[key] || (regExDict[key] = (typeof props[key] == 'string' ? new RegExp('\\$\\{' + key + '\\}?', 'g') : new RegExp('\\"?\\$\\{' + key + '\\}\\"?', 'g')));
+      var regEx = regExDict[key] || (regExDict[key] = (typeof props[key] == 'string' ? new RegExp('\\$\\{' + key + '\\}', 'g') : new RegExp('\\"?\\$\\{' + key + '\\}\\"', 'g')));
       ret = ret.replace(regEx, props[key]);
     }
 
